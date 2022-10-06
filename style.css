@@ -1,0 +1,104 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@media screen and (max-width:576px)
+  { 
+   h1{
+    font-size: 40px !important;
+
+  }
+  .intro h2, .intro h3{
+    font-size: 17px !important; 
+  }
+  .intro h3{
+    font-size: 9px !important;  
+  }
+  .row h1 {
+    font-size: 20px !important;
+   
+  }
+  .row p,p{
+    font-size: 10px !important;
+    text-align: justify;
+  }
+  p{
+      margin:10px 20px 0px 20px !important;
+  }
+  .btn{
+    margin:7px 0px;
+    padding:5px;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+  }
+}
+body {
+  font-family: "Open Sans", "sans serif";
+ background-color:rgb(235, 226, 194);
+  background-repeat: no-repeat;
+
+}
+.container,body {
+  display: flex;
+  justify-content: center;
+}
+.intro h1,
+.intro h2,
+.intro h3 {
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 30px;
+}
+.intro {
+  padding: 50px;
+  background-color:#FFD43B;
+  border-radius: 5px;
+}
+.intro h1 {
+  font-size: 90px;
+  font-weight: 700;
+}
+.row {
+  margin: 30px 10px 20px 10px;
+  border-radius: 3px;
+}
+p {
+  text-align: justify;
+  margin: 5px 10px 5px 10px;
+}
+.row h1 {
+  text-align: center;
+  padding: 2px;
+  margin: 5px;
+  font-weight: bold;
+}
+img {
+  background-color: #ffffff;
+  margin-bottom: 10px;
+}
+a,
+a:hover {
+  color: #000000;
+  text-decoration: none;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  background-color: #FFD43B;
+  border: 1px solid  #FFD43B;
+}
+.about h1 {
+  margin-top: 5px;
+  font-size: 90px;
+  font-family:'Josefin Sans', sans-serif; 
+}
+.card {
+  margin: 5px;
+  background-color: #fff8f0;
+  padding: 4px;
+}
